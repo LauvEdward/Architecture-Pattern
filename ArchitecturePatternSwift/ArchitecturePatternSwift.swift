@@ -1,6 +1,6 @@
 //
-//  architecture_pattern_swiftApp.swift
-//  architecture-pattern-swift
+//  ArchitecturePatternSwift.swift
+//  ArchitecturePatternSwift
 //
 //  Created by Lauv Edward on 8/18/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct architecture_pattern_swiftApp: App {
+struct ArchitecturePatternSwift: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

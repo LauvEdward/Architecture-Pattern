@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DCB5DF802E5331220003796A /* architecture-pattern-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "architecture-pattern-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5DF802E5331220003796A /* ArchitecturePatternSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitecturePatternSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DCB5DF822E5331220003796A /* architecture-pattern-swift */ = {
+		DCB5DF822E5331220003796A /* ArchitecturePatternSwift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "architecture-pattern-swift";
+			path = ArchitecturePatternSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		DCB5DF772E5331220003796A = {
 			isa = PBXGroup;
 			children = (
-				DCB5DF822E5331220003796A /* architecture-pattern-swift */,
+				DCB5DF822E5331220003796A /* ArchitecturePatternSwift */,
 				DCB5DF812E5331220003796A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		DCB5DF812E5331220003796A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCB5DF802E5331220003796A /* architecture-pattern-swift.app */,
+				DCB5DF802E5331220003796A /* ArchitecturePatternSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCB5DF7F2E5331220003796A /* architecture-pattern-swift */ = {
+		DCB5DF7F2E5331220003796A /* ArchitecturePatternSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCB5DF8B2E5331230003796A /* Build configuration list for PBXNativeTarget "architecture-pattern-swift" */;
+			buildConfigurationList = DCB5DF8B2E5331230003796A /* Build configuration list for PBXNativeTarget "ArchitecturePatternSwift" */;
 			buildPhases = (
 				DCB5DF7C2E5331220003796A /* Sources */,
 				DCB5DF7D2E5331220003796A /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DCB5DF822E5331220003796A /* architecture-pattern-swift */,
+				DCB5DF822E5331220003796A /* ArchitecturePatternSwift */,
 			);
-			name = "architecture-pattern-swift";
+			name = ArchitecturePatternSwift;
 			packageProductDependencies = (
 			);
 			productName = "architecture-pattern-swift";
-			productReference = DCB5DF802E5331220003796A /* architecture-pattern-swift.app */;
+			productReference = DCB5DF802E5331220003796A /* ArchitecturePatternSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCB5DF7B2E5331220003796A /* Build configuration list for PBXProject "architecture-pattern-swift" */;
+			buildConfigurationList = DCB5DF7B2E5331220003796A /* Build configuration list for PBXProject "ArchitecturePatternSwift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCB5DF7F2E5331220003796A /* architecture-pattern-swift */,
+				DCB5DF7F2E5331220003796A /* ArchitecturePatternSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCB5DF7B2E5331220003796A /* Build configuration list for PBXProject "architecture-pattern-swift" */ = {
+		DCB5DF7B2E5331220003796A /* Build configuration list for PBXProject "ArchitecturePatternSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB5DF892E5331230003796A /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCB5DF8B2E5331230003796A /* Build configuration list for PBXNativeTarget "architecture-pattern-swift" */ = {
+		DCB5DF8B2E5331230003796A /* Build configuration list for PBXNativeTarget "ArchitecturePatternSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB5DF8C2E5331230003796A /* Debug */,
