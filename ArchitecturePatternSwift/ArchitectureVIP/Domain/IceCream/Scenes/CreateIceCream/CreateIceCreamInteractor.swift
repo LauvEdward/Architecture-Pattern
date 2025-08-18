@@ -14,7 +14,17 @@ class CreateIceCreamInteractor {
 }
 extension CreateIceCreamInteractor: CreateIceCreamBusinessLogic {
     func loadIceCream(request: CreateIceCream.LoadIceCream.Request) {
-        let iceCream = Bundle.main.decode(IceCream.self, from: "icecream.json")
+        guard let fileURL = Bundle.main.url(forResource: "icecream", withExtension: "json") else {
+            fatalError("Couldn't find icecream.json in project")
+        }
+        guard let data = try? Data(contentsOf: fileURL) else {
+            fatalError("Couldn't load icecream.json")
+        }
+        let iceCream = try? JSONDecoder().decode(IceCream.self, from: data)
+        guard let iceCream = iceCream else {
+            fatalError("Couldn't decode model IceCream")
+        }
+        print("CreateIceCreamInteractor loadIceCream \(iceCream)")
         let response = CreateIceCream.LoadIceCream.Response(iceCreamData: iceCream)
     }
 }

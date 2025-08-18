@@ -6,6 +6,6 @@
 //
 
 import Foundation
-struct IceCream {
+struct IceCream: Codable {
     
 }
