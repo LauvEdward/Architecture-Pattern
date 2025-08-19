@@ -11,7 +11,8 @@ import SwiftUI
 struct ArchitecturePatternSwift: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            CreateIceCreamView().configureView()
+            ImageUnsplashView().configureView()
         }
     }
 }

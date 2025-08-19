@@ -7,5 +7,7 @@
 
 import Foundation
 struct IceCream: Codable {
-    
+    var cones: [String]
+    var flavors: [String]
+    var toppings: [String]
 }

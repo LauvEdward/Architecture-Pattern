@@ -26,5 +26,6 @@ extension CreateIceCreamInteractor: CreateIceCreamBusinessLogic {
         }
         print("CreateIceCreamInteractor loadIceCream \(iceCream)")
         let response = CreateIceCream.LoadIceCream.Response(iceCreamData: iceCream)
+        presenter?.presentIceCream(response: response)
     }
 }
